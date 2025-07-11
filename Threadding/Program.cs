@@ -18,6 +18,11 @@
             Console.WriteLine("");
             Console.WriteLine($"Batch Threadding");
             ThreadBatchStart.Execute();
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine($"Thread Pooling");
+            var pooling = new ThreadPooling();
+            pooling.Execute();
         }
 
     }
