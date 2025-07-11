@@ -5,6 +5,10 @@ VisualStudioVersion = 17.14.36221.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompleteCMasterclass", "CompleteCMasterclass\CompleteCMasterclass.csproj", "{DDEC8D35-5B5B-4433-985A-F7D679EA8B38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threadding", "Threadding\Threadding.csproj", "{6E3BCD4E-E6C0-42AF-8237-6B23E59AA47C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{2F811C66-E222-4B4F-8DAB-C1A9753DC7C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{DDEC8D35-5B5B-4433-985A-F7D679EA8B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDEC8D35-5B5B-4433-985A-F7D679EA8B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDEC8D35-5B5B-4433-985A-F7D679EA8B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3BCD4E-E6C0-42AF-8237-6B23E59AA47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3BCD4E-E6C0-42AF-8237-6B23E59AA47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3BCD4E-E6C0-42AF-8237-6B23E59AA47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3BCD4E-E6C0-42AF-8237-6B23E59AA47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F811C66-E222-4B4F-8DAB-C1A9753DC7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F811C66-E222-4B4F-8DAB-C1A9753DC7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F811C66-E222-4B4F-8DAB-C1A9753DC7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F811C66-E222-4B4F-8DAB-C1A9753DC7C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
