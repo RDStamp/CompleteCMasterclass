@@ -13,7 +13,12 @@
             Console.WriteLine("---------------------------------------------------");
             Console.WriteLine("");
             Console.WriteLine($"Thread Ending");
-            ThreadEnding.Execute();            
+            ThreadEnding.Execute();
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine($"Batch Threadding");
+            ThreadBatchStart.Execute();
         }
+
     }
 }
