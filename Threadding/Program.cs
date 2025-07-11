@@ -2,15 +2,17 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World 1!");
-            Thread.Sleep(1000); 
-            Console.WriteLine("Hello, World 2!");
-            Thread.Sleep(1000); 
-            Console.WriteLine("Hello, World 3!");
-            Thread.Sleep(1000); 
-            Console.WriteLine("Hello, World 4!");
+            //ThreadBlocking.Execute();
+            //Console.WriteLine("---------------------------------------------------");
+            //Console.WriteLine("");
+            //ThreadStarting.Execute();
+            //Console.WriteLine("---------------------------------------------------");
+            //Console.WriteLine("");
+            ThreadEnding.Execute();
+
+
         }
     }
 }
