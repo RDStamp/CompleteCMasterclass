@@ -4,15 +4,16 @@
     {
         static void Main()
         {
-            //ThreadBlocking.Execute();
-            //Console.WriteLine("---------------------------------------------------");
-            //Console.WriteLine("");
-            //ThreadStarting.Execute();
-            //Console.WriteLine("---------------------------------------------------");
-            //Console.WriteLine("");
-            ThreadEnding.Execute();
-
-
+            Console.WriteLine($"Thread Blocking");
+            ThreadBlocking.Execute();
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine($"Thread Starting");
+            ThreadStarting.Execute();
+            Console.WriteLine("---------------------------------------------------");
+            Console.WriteLine("");
+            Console.WriteLine($"Thread Ending");
+            ThreadEnding.Execute();            
         }
     }
 }

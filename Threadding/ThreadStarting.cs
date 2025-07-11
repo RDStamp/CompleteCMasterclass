@@ -4,6 +4,16 @@ internal static class ThreadStarting
 {
     public static void Execute()
     {
+        // Forced Sequential
+        Console.WriteLine($"Forced Sequential Start");
+        ProcessThreadStart.Execute(11, 5000);
+        ProcessThreadStart.Execute(12, 8000);
+        ProcessThreadStart.Execute(13, 2000);
+        ProcessThreadStart.Execute(14, 10000);
+
+
+        // Async
+        Console.WriteLine($"Async");
         Console.WriteLine("Manual thread 1 Start");
         new Thread(() =>
         {
